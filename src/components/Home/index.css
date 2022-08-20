@@ -1,0 +1,135 @@
+@media screen and (min-width: 786px) {
+  .books-responsive-btn-sm {
+    display: none;
+  }
+}
+
+.home-heading {
+  color: white;
+}
+
+.home-description {
+  color: rgb(65, 63, 62);
+}
+
+.slider-container {
+  background-image: linear-gradient(to top, #3a6186, #89253e);
+  padding: 10px;
+  margin: 10px;
+  height: 50vh;
+  border-radius: 7px;
+  transition: 0.5s ease-in-out;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.slider-container:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
+
+.home-page-bg-container {
+  flex-direction: row;
+  background-image: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+  flex-grow: grow;
+  padding: 35px;
+}
+.home-top-rated-container {
+  padding-left: 35px;
+  padding-right: 35px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to top, #d9a7c7, #fffcdc);
+  border-radius: 5px;
+  padding-bottom: 35px;
+}
+.top-rated-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  align-items: center;
+}
+.home-find-books-btn {
+  background-color: #0284c7;
+  color: white;
+  height: 30px;
+  width: 90px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  transition: 0.9s ease;
+  margin-bottom: 0px;
+}
+
+.home-find-books-btn:hover {
+  background-color: #89253e;
+}
+
+@media screen and (max-width: 786px) {
+  .books-responsive-btn-lg {
+    display: none;
+  }
+  .top-rated-heading {
+    font-size: 15px;
+    color: #0284c7;
+  }
+}
+
+.top-rated-book-image {
+  height: 30vh;
+  width: 100%;
+  max-width: 200px;
+  min-width: 30px;
+  margin: auto;
+}
+@media screen and (max-width: 787px) {
+  .top-rated-book-image {
+    max-height: 20vh;
+    width: 25vw;
+    margin-top: 5px;
+    align-items: center;
+  }
+}
+.top-rated-book-name {
+  font-size: 17px;
+  font-family: inter;
+  color: white;
+}
+
+.top-rated-book-author {
+  font-family: sans-serif;
+  color: white;
+  font-size: 13px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.top-rated-books-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-rated-books-failure-btn {
+  border: none;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.top-rated-card-btn {
+  background-color: transparent;
+}

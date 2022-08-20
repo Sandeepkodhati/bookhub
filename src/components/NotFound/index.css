@@ -1,0 +1,14 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.go-back-home-btn {
+  height: 30px;
+  width: 130px;
+  border-width: 0px;
+  color: white;
+  background-color: #10adeb;
+  border-radius: 7px;
+}
